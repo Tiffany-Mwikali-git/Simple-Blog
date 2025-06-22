@@ -1,0 +1,27 @@
+{ "posts" : [
+    {
+        "id": "1",
+        "title": "My first Blog Post",
+        "date": "2025/o4/20",
+        "summary": "This is a short introduction to my first blog post.",
+        "content": "Welcome to my blog!"
+
+
+    },
+    {
+        "id": "2",
+        "title": "My first Blog Post",
+        "date": "2025/o4/20",
+        "summary": "This is a short introduction to my first blog post.",
+        "content": "Welcome to my blog!"
+    },
+
+    {
+        "id": "3",
+        "title": "My first Blog Post",
+        "date": "2025/o4/20",
+        "summary": "This is a short introduction to my first blog post.",
+        "content": "Welcome to my blog!"
+    }
+]
+}
