@@ -8,3 +8,18 @@
 body{
     background-color: white;
 }
+
+#blogItems {
+    float: left;
+    width: 50%;
+}
+
+#blogItem {
+    float: right;
+    width: 50%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}

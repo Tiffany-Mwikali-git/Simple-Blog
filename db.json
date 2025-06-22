@@ -4,24 +4,25 @@
         "title": "My first Blog Post",
         "date": "2025/o4/20",
         "summary": "This is a short introduction to my first blog post.",
-        "content": "Welcome to my blog!"
-
-
+        "content": "Welcome to my blog!",
+        "image": "img1.jpg"
     },
     {
         "id": "2",
-        "title": "My first Blog Post",
+        "title": "My second Blog Post",
         "date": "2025/o4/20",
         "summary": "This is a short introduction to my first blog post.",
-        "content": "Welcome to my blog!"
+        "content": "Welcome to my blog!",
+        "image": "img2.jpg"
     },
 
     {
         "id": "3",
-        "title": "My first Blog Post",
+        "title": "My third Blog Post",
         "date": "2025/o4/20",
         "summary": "This is a short introduction to my first blog post.",
-        "content": "Welcome to my blog!"
+        "content": "Welcome to my blog!",
+        "image": "img3.jpg"
     }
 ]
 }
