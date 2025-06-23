@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog</title>
-    <link rel="stylesheet" href ="css/styles.css">
+  <meta charset="UTF-8">
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="container">
-        <div id="blogItems">
-            <div id = "title"></div>
-        </div>
-        <div id="blogItem">
-            <img src="/images/img1.jpg">
-            <div id = "blogTitle"></div>
-            <div id = "blogContent"></div>  
-        </div>
+    <div class="container">
+        <h1>My Personal Blog</h1>
+        <h2>My Posts</h2>
+        <div id="post-list"></div>
+
+
+        <h2>Show details</h2>
+        <div id="post-detail"></div>
+
+        <h2>Add a Post</h2>
+            <form id="post-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <textarea id="content" placeholder="Write your post..." required></textarea>
+                <input type="text" id="image" placeholder="Image URL">
+                <button type="submit">Publish</button>
+            </form>
     </div>
-        
+
+  <script src="src/index.js"></script>
 </body>
-<script src="src/index.js"></script>
 </html>
