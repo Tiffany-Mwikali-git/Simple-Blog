@@ -1,46 +1,3 @@
-// const posts = document.querySelector('posts')
-
-// let blogPosts = []
-
-// const URL = "http://localhost:3000/posts"
-
-// function displayPosts() {
-//         fetch(URL)
-//         .then(res => res.json())
-//         .then(posts => {
-
-
-//         blogPosts = posts;
-//        const blogContainer = document.getElementById("blogItems");
-//        const link = document.createElement("a");
-//        let ids = 0
-//        for(let post of posts){
-//            link.href = "#"
-//            const li = document.createElement("li")
-//            li.addEventListener("click", linkClicked(ids))
-//          li.textContent = post.title;
-//          link.appendChild(li)
-//          blogContainer.appendChild(link)
-//         showBlogItem(0)
-//         ids = ids + 1;
-//        }
-//     })
-// }
-
-// function showBlogItem(itemId){
-//     const blogTitle = document.getElementById("blogTitle");
-//       blogTitle.innerText = blogPosts[itemId].title;
-//       const blogContent = document.getElementById("blogContent");
-//       blogContent.innerText = blogPosts[itemId].content;
-// }
-
-// function linkClicked(id){
-//     showBlogItem(id)    
-//     console.log("id clicked", id)
-// }
-
-// displayPosts();
-
 
 const URL = 'http://localhost:3000/posts';
 const postList = document.getElementById('post-list');
@@ -65,8 +22,9 @@ function createPostCard(post) {
   div.className = 'post';
   div.innerHTML = `
     <h3>${post.title}</h3>
-    <p><em>by ${post.author}</em></p>
+    <p>${post.date}</p>
     <p>${post.content}</p>
+    <p>${post.summary}</p>
     ${post.image ? `<img src="${post.image}" class="post-image" style="max-width: 100px;">` : ''}
   `;
   div.style.cursor = 'pointer';
@@ -82,9 +40,10 @@ function handlePostClick(postId) {
       const details = document.getElementById('post-detail');
       details.innerHTML = `
         <h2>${post.title}</h2>
-        ${post.image ? `<img src="${post.image}" class="post-image">` : ''}
-        <p><strong>Author:</strong> ${post.author}</p>
+        <p>${post.date}</p>
+        <p><strong>Summary:</strong> ${post.summary}</p>
         <p>${post.content}</p>
+        ${post.image ? `<img src="${post.image}" class="post-image">` : ''}
       `;
     });
 }
@@ -96,7 +55,8 @@ function addNewPostListener() {
 
     const newPost = {
       title: form.title.value,
-      author: form.author.value,
+      date: form.date.value,
+      summary:form.summary.value,
       content: form.content.value,
       image: form.image.value
     };
