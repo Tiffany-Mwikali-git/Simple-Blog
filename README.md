@@ -30,7 +30,7 @@ Click on any post to see its full details
 1. clone this repository using:
 
   ```bash
-   git clone git@github.com:dennis-kiboi/react-blog.git
+   git clone git@github.com:Tiffany-Mwikali/Simple-Blog.git
    ```
  2. Install the required dependencies:
 
