@@ -5,14 +5,14 @@
       "title": "My first Blog Post",
       "date": "2025/04/20",
       "summary": "This is a short introduction to my first blog post.",
-      "content": "Welcome to my blog!",
+      "content": "Welcome to my blog! I'm Tiffany",
       "image": "images/img1.jpg"
     },
     {
       "id": "2",
       "title": "My second Blog Post",
       "date": "2025/04/20",
-      "summary": "This is a short introduction to my first blog post.I start my day by running for 1 to 2 km.",
+      "summary": "This is a short introduction to my first blog post.I start my day by running for 1 to 2 km.Take my breakfast and go to work",
       "content": "Welcome to my blog!",
       "image": "images/img1.jpg"
     },
@@ -20,14 +20,14 @@
       "id": "3",
       "title": "My third Blog Post",
       "date": "2025/04/20",
-      "summary": "This is a short introduction to my first blog post.",
-      "content": "Welcome to my blog!",
+      "summary": "I love reading books that are related to finance, watching documetary and doing workouts including Yoga and pilates.",
+      "content": "Enjoy my blog!",
       "image": "images/img1.jpg"
     },
     {
       "title": "My cat",
       "date": "23/06/2025",
-      "summary": "This is my cat Tiff.",
+      "summary": "This is Woof my pet.I take her for evening walk everyday.She loves eating treats more than taking a bath.",
       "content": "See my cat",
       "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR1C0XX0G2NSOp5mmXPK6gwcRaZdCdmm3AQopYkwtzWCqfsv_VN06S8YeJZKyT7CnEmqo286gVeCHSUI2T3h7Z3zA",
       "id": "gf5Yf7v"
