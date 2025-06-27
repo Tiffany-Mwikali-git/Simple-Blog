@@ -19,7 +19,7 @@ Click on any post to see its full details
 -A modern web browser
 
 ### view live site
- Visit the deployed application at: https://github.com/Tiffany-Mwikali-git/Simple-Blog
+ Visit the deployed application at: https://simple-blog-4owk.onrender.com
 
 ### How to Use
 - use a competer
