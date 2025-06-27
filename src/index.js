@@ -1,5 +1,5 @@
 
-const URL = 'http://localhost:3000/posts';
+const URL = 'https://blog-server-bk4x.onrender.com/posts';
 const postList = document.getElementById('post-list');
 const form = document.getElementById('post-form');
 
